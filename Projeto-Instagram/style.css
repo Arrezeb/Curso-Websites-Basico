@@ -1,0 +1,158 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: Arial;
+	font-size: 14px;
+}
+
+body{
+	width: 100%;
+	min-height: 100vh;
+	background-color: rgb(243, 243, 243);
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	justify-content: center;
+}
+
+.Instagram{
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	width: 60%;
+	height: 100vh;
+
+}
+
+.insta-phone{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50%;
+}
+
+.insta-phone img{
+	height: 50rem;-
+}
+
+.insta-continue {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: column;
+	width: 50%;
+	min-height: 34rem;
+}
+
+.group{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+	background-color: #FFFFFF;
+	width: 100%;
+	padding: 1.3rem 0;
+	border: 1px solid lightgray;
+
+}
+
+.group;nth-chield(1) {
+  min-height: 19rem;
+}
+
+.logo {
+	height: 3rem;
+}
+
+.perfil {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 60%;
+	overflow: hidden;
+	height: 10rem;
+	width: 10rem;
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+
+.login {
+    background-color: #1981CD;
+    color: white;
+	padding: 8px;
+	border-radius: 4px;-
+
+}
+
+.logout {
+  color: #1981CD;
+  margin-top: 1rem;
+}
+
+.not-account{
+	color: rgb(160, 160, 160);	
+}
+
+.link-blue{
+	color: #1981CD;
+}
+
+.get-the-app{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	padding: 1.3rem 0;
+}
+
+.download{
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1rem;
+}
+
+.store{
+	height: 7rem;
+	width: 10rem;
+	background-size: cover;
+}
+
+.store;nth-child(1) {
+	background-image: url("./IMG/bapp.png");
+}
+
+.store;nth-child(2) {
+	background-image: url("./IMG/bgoogle.png");
+}
+
+
+@media (max-width: 1024px){
+	.Instagram{
+		width: 90%;
+	}
+}
+
+@media (max-width: 650px){
+body{
+	background-color: #FFFFFF;
+}
+
+	.Instagram{
+		width: 90%;
+	}
+	.insta-phone{
+		display: none;
+	}
+    .insta-continue{
+    	width: 100%;
+    }
+    .group{
+    	border: 1px solid transparent;
+    }
+
+  }
